@@ -1,0 +1,109 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$pyi
+*.pyd
+*.pyo
+
+# C extensions
+*.so
+
+# Environments
+.env
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+myenv/
+
+# Sphinx documentation
+docs/_build/
+
+# Testing
+.coverage
+*.egg-info/
+htmlcov/
+.tox/
+.nox/
+.cache/
+.pytest_cache/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+*.pot
+*.pyc
+db.sqlite3
+db.sqlite3-journal
+settings_local.py
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Other development artifacts
+*.egg
+*.egg-info/
+dist/
+build/
+*.egg-info/
+
+# Packaging artifacts
+*.egg-info/
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+coverage.xml
+*.cover
+.hypothesis/
+
+# PyDev project settings
+.project
+.pydevproject
+
+# mypy
+.mypy_cache/
+
+# Migration files
+migrations/
+
+# Python debugger
+debug.log
+
+# Node.js and npm
+node_modules/
+
+# Local IDE settings
+*.sublime-workspace
+*.sublime-project
+.idea/
+*.swp
+.DS_Store

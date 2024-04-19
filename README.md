@@ -103,4 +103,4 @@ To set up the Medical Appointment Application, follow these steps:
 
 This project is an [AltSchool](https://altschoolafrica.com/) second semester examination solution. Though feel free to use, modify, and distribute the application as you see fit.
 
-# BYE :relaxed:
+# BYE :wave: :relaxed:

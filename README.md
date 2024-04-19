@@ -31,13 +31,13 @@ To set up the Medical Appointment Application, follow these steps:
 1. Clone the repository to your local machine:
 
     ```shell
-    git clone https://github.com/your-username/appointment-app.git
+    git clone https://github.com/Egcarson/Altschool_Med_App.git
     ```
 
 2. Navigate to the project directory:
 
     ```shell
-    cd appointment-app
+    cd Altschool_Med_App
     ```
 
 3. Create a virtual environment:
@@ -69,7 +69,7 @@ To set up the Medical Appointment Application, follow these steps:
 6. Start the FastAPI server:
 
     ```shell
-    uvicorn main:app --reload
+    uvicorn app:app --reload
     ```
 
 7. The API should now be running locally at [http://localhost:8000](http://localhost:8000).

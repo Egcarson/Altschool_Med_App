@@ -28,16 +28,6 @@ class AppointmentService():
                 detail="No doctor available. Please try again later."
             )
 
-        # instance for creating a new appointment
-
-        # well but before that what if the patient has an existing appointment already? first lets fix that
-        for apt in appointments:
-            if apt.patient.id == appoint_in.patient_id:
-                raise HTTPException(
-                    status_code=400,
-                    detail="Patient already has an appointment!"
-                )
-
         # well then now, we can create a new appointment
         appointment_id = len(appointments) + 1
         new_appointment = Appointment(
